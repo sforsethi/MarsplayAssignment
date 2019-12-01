@@ -8,26 +8,24 @@
 
 import XCTest
 
+@testable import Marsplay_Assignment
+
 class Marsplay_AssignmentTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
 
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testValidName()    {
+        let movie = Movie(title: "", year: "2020", poster: "abc", type: "movie")
+        XCTAssertTrue(movie.validMovie())
+    }
+    
+    func testValidYear()    {
+        let movie = Movie(title: "Batman", year: "2000", poster: "abc", type: "movie")
+        XCTAssertTrue(movie.validYear()
+        )
     }
 
 }

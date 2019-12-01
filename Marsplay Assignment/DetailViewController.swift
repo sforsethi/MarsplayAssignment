@@ -7,24 +7,31 @@
 //
 
 import UIKit
+import SDWebImage
 
 class DetailViewController: UIViewController {
-
+    
+    var movie = Movie()
+    
+    
+    @IBOutlet weak var year: UILabel!
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var type: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupMovie()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupMovie()   {
+        self.year.text = "Released in: \(movie.year)"
+        self.movieTitle.text = movie.title
+        self.type.text = movie.type
+        self.image.sd_setImage(with: URL(string: movie.poster), placeholderImage: .none, options: .continueInBackground, completed: nil)
     }
-    */
-
+    
+    @IBAction func back(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

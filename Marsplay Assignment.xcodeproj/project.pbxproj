@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AC8DEDCA5AB6F9E5BB07893 /* Pods_Marsplay_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E878624A505B49E7CB3E469C /* Pods_Marsplay_Assignment.framework */; };
+		D7483B902394450400FEFB6C /* Marsplay_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7483B8F2394450400FEFB6C /* Marsplay_AssignmentTests.swift */; };
 		D791291F2392CFC200EE823F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791291E2392CFC200EE823F /* AppDelegate.swift */; };
 		D79129212392CFC200EE823F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79129202392CFC200EE823F /* SceneDelegate.swift */; };
 		D79129232392CFC200EE823F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79129222392CFC200EE823F /* ViewController.swift */; };
 		D79129262392CFC200EE823F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79129242392CFC200EE823F /* Main.storyboard */; };
 		D79129282392CFC800EE823F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79129272392CFC800EE823F /* Assets.xcassets */; };
 		D791292B2392CFC800EE823F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79129292392CFC800EE823F /* LaunchScreen.storyboard */; };
+		D79129332392D27900EE823F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79129322392D27900EE823F /* MovieModel.swift */; };
+		D79129352392D4AB00EE823F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79129342392D4AB00EE823F /* MovieCell.swift */; };
+		D79129372393BBCF00EE823F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79129362393BBCF00EE823F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D7483B922394450400FEFB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79129132392CFC200EE823F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D791291A2392CFC200EE823F;
+			remoteInfo = "Marsplay Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CCD41AD04B1CE604CB80FB55 /* Pods-Marsplay Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Marsplay Assignment/Pods-Marsplay Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		D7483B8D2394450400FEFB6C /* Marsplay AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marsplay AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7483B8F2394450400FEFB6C /* Marsplay_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsplay_AssignmentTests.swift; sourceTree = "<group>"; };
+		D7483B912394450400FEFB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D791291B2392CFC200EE823F /* Marsplay Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marsplay Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D791291E2392CFC200EE823F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D79129202392CFC200EE823F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +43,58 @@
 		D79129272392CFC800EE823F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D791292A2392CFC800EE823F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D791292C2392CFC800EE823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79129322392D27900EE823F /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		D79129342392D4AB00EE823F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D79129362393BBCF00EE823F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E878624A505B49E7CB3E469C /* Pods_Marsplay_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsplay_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F502AEDED5FF51DE0C33218E /* Pods-Marsplay Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay Assignment.release.xcconfig"; path = "Target Support Files/Pods-Marsplay Assignment/Pods-Marsplay Assignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D79129182392CFC200EE823F /* Frameworks */ = {
+		D7483B8A2394450400FEFB6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D79129182392CFC200EE823F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC8DEDCA5AB6F9E5BB07893 /* Pods_Marsplay_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529F82835BBE4224570EF9E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD41AD04B1CE604CB80FB55 /* Pods-Marsplay Assignment.debug.xcconfig */,
+				F502AEDED5FF51DE0C33218E /* Pods-Marsplay Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7483B8E2394450400FEFB6C /* Marsplay AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7483B8F2394450400FEFB6C /* Marsplay_AssignmentTests.swift */,
+				D7483B912394450400FEFB6C /* Info.plist */,
+			);
+			path = "Marsplay AssignmentTests";
+			sourceTree = "<group>";
+		};
 		D79129122392CFC200EE823F = {
 			isa = PBXGroup;
 			children = (
 				D791291D2392CFC200EE823F /* Marsplay Assignment */,
+				D7483B8E2394450400FEFB6C /* Marsplay AssignmentTests */,
 				D791291C2392CFC200EE823F /* Products */,
+				529F82835BBE4224570EF9E4 /* Pods */,
+				E33669E981AC05D223E99E99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D791291B2392CFC200EE823F /* Marsplay Assignment.app */,
+				D7483B8D2394450400FEFB6C /* Marsplay AssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,20 +117,51 @@
 				D79129272392CFC800EE823F /* Assets.xcassets */,
 				D79129292392CFC800EE823F /* LaunchScreen.storyboard */,
 				D791292C2392CFC800EE823F /* Info.plist */,
+				D79129322392D27900EE823F /* MovieModel.swift */,
+				D79129342392D4AB00EE823F /* MovieCell.swift */,
+				D79129362393BBCF00EE823F /* DetailViewController.swift */,
 			);
 			path = "Marsplay Assignment";
+			sourceTree = "<group>";
+		};
+		E33669E981AC05D223E99E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E878624A505B49E7CB3E469C /* Pods_Marsplay_Assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D7483B8C2394450400FEFB6C /* Marsplay AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7483B962394450400FEFB6C /* Build configuration list for PBXNativeTarget "Marsplay AssignmentTests" */;
+			buildPhases = (
+				D7483B892394450400FEFB6C /* Sources */,
+				D7483B8A2394450400FEFB6C /* Frameworks */,
+				D7483B8B2394450400FEFB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7483B932394450400FEFB6C /* PBXTargetDependency */,
+			);
+			name = "Marsplay AssignmentTests";
+			productName = "Marsplay AssignmentTests";
+			productReference = D7483B8D2394450400FEFB6C /* Marsplay AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D791291A2392CFC200EE823F /* Marsplay Assignment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D791292F2392CFC800EE823F /* Build configuration list for PBXNativeTarget "Marsplay Assignment" */;
 			buildPhases = (
+				CFB9D323AE3C569A119A3783 /* [CP] Check Pods Manifest.lock */,
 				D79129172392CFC200EE823F /* Sources */,
 				D79129182392CFC200EE823F /* Frameworks */,
 				D79129192392CFC200EE823F /* Resources */,
+				A0EA93141A69FDB153D4B332 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +182,10 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Raghav Sethi";
 				TargetAttributes = {
+					D7483B8C2394450400FEFB6C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D791291A2392CFC200EE823F;
+					};
 					D791291A2392CFC200EE823F = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -116,11 +205,19 @@
 			projectRoot = "";
 			targets = (
 				D791291A2392CFC200EE823F /* Marsplay Assignment */,
+				D7483B8C2394450400FEFB6C /* Marsplay AssignmentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D7483B8B2394450400FEFB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79129192392CFC200EE823F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +230,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0EA93141A69FDB153D4B332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marsplay Assignment/Pods-Marsplay Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marsplay Assignment/Pods-Marsplay Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marsplay Assignment/Pods-Marsplay Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB9D323AE3C569A119A3783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsplay Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D7483B892394450400FEFB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7483B902394450400FEFB6C /* Marsplay_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79129172392CFC200EE823F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79129332392D27900EE823F /* MovieModel.swift in Sources */,
 				D79129232392CFC200EE823F /* ViewController.swift in Sources */,
 				D791291F2392CFC200EE823F /* AppDelegate.swift in Sources */,
+				D79129372393BBCF00EE823F /* DetailViewController.swift in Sources */,
+				D79129352392D4AB00EE823F /* MovieCell.swift in Sources */,
 				D79129212392CFC200EE823F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7483B932394450400FEFB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D791291A2392CFC200EE823F /* Marsplay Assignment */;
+			targetProxy = D7483B922394450400FEFB6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D79129242392CFC200EE823F /* Main.storyboard */ = {
@@ -166,6 +324,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D7483B942394450400FEFB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464HGZ97VY;
+				INFOPLIST_FILE = "Marsplay AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sforsethi.Marsplay-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay Assignment.app/Marsplay Assignment";
+			};
+			name = Debug;
+		};
+		D7483B952394450400FEFB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464HGZ97VY;
+				INFOPLIST_FILE = "Marsplay AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sforsethi.Marsplay-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay Assignment.app/Marsplay Assignment";
+			};
+			name = Release;
+		};
 		D791292D2392CFC800EE823F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -216,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +482,7 @@
 		};
 		D79129302392CFC800EE823F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD41AD04B1CE604CB80FB55 /* Pods-Marsplay Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +501,7 @@
 		};
 		D79129312392CFC800EE823F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F502AEDED5FF51DE0C33218E /* Pods-Marsplay Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +521,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D7483B962394450400FEFB6C /* Build configuration list for PBXNativeTarget "Marsplay AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7483B942394450400FEFB6C /* Debug */,
+				D7483B952394450400FEFB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D79129162392CFC200EE823F /* Build configuration list for PBXProject "Marsplay Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
